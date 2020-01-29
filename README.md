@@ -96,7 +96,7 @@ Para seu maior aprendizado tente levantar o ambiente e instalar as dependências
 ```
 conda create -n <nome do ambiente> --file requirements.txt
 activate <nome do ambiente>
-cd <diretório raís do projeto>
+cd <diretório raiz do projeto>
 jupyter notebook
 ```
 
@@ -104,13 +104,13 @@ jupyter notebook
 ```
 conda create -n <nome do ambiente> --file requirements.txt
 source activate <nome do ambiente>
-cd <diretório raís do projeto>
+cd <diretório raiz do projeto>
 jupyter notebook
 ```
 
 - Virtualenv + Pip (Windows): 
 ```
-cd <diretório raís do projeto>
+cd <diretório raiz do projeto>
 virtualenv <nome do ambiente>
 .\<nome do ambiente>\Scripts\activate
 pip install -r requirements.txt
@@ -118,7 +118,7 @@ pip install -r requirements.txt
 
 - Virtualenv + Pip (Unix):
 ```
-cd <diretório raís do projeto>
+cd <diretório raiz do projeto>
 virtualenv <nome do ambiente>
 source  <nome do ambiente>/bin/activate
 pip install -r requirements.txt
